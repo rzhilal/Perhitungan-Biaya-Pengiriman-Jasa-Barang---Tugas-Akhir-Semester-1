@@ -74,7 +74,7 @@ int main()
         {
             return (0);
         }
-        default: // INPUTAN LAINNYA
+        default: //INPUTAN LAINNYA
         {
             system("cls");
             cout << "\n\n\t\t\t\t\tPILIHAN TIDAK ADA";
