@@ -4,7 +4,7 @@
 typedef struct //STRUCT INFORMASI
 {
     char kode_jasa[20];
-	char tgl[12];
+    char tgl[12];
     char nm_pgrm[65];
     char alamat_pgrm[120];
     char pos_pgrm[7];
@@ -22,6 +22,11 @@ typedef struct //STRUCT INFORMASI BARANG
 
 void kategoriWilayah(); //PENGINPUTAN INFORMASI BARANG DAN SEKALIGUS PERHITUNGANNYA	
 
+} brg;
+
+//PROTOTYPE
+void kategoriWilayah(); //PEMILIHAN KODE WILAYAH
+
 int perhitunganBiaya(int plh, int jml_brt); //MEHITUNG BIAYA JASA
 
 void tampilRiwayat(); //MENAMPILKAN SELURUH HISTORY
@@ -37,7 +42,6 @@ void entryData(); //PROSEDUR MENGENTRYKAN DATA KE FILE RIWAYAT
 bool validasiKode(char inputan_kode[7]); //KODE UNIK CEK
 
 void tampil_id(); //PROSEDUR MENAMPILKAN STATUS DAN ID SAJA
-
 
 
 #endif
