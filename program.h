@@ -22,8 +22,6 @@ typedef struct //STRUCT INFORMASI BARANG
 
 void kategoriWilayah(); //PENGINPUTAN INFORMASI BARANG DAN SEKALIGUS PERHITUNGANNYA	
 
-} brg;
-
 //PROTOTYPE
 void kategoriWilayah(); //PEMILIHAN KODE WILAYAH
 
