@@ -8,9 +8,10 @@ using namespace std;
 int main()
 {
 
-//    login(); // Login Akun
+    login(); // Login Akun
 
     int hasil_perhitungan;
+    inf dt;
     int pil;
     int kode;
     for (;;)
@@ -56,6 +57,8 @@ int main()
             case 2:
                 system("cls");
                 updateRiwayat();
+                cout << "\n\t\t\t\t";
+                system("pause");
                 break;
             case 3:
                 break;
