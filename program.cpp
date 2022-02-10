@@ -9,7 +9,6 @@ using namespace std;
 
 void login()
 {
-
     // USER ACCOUNT
     string username = "admin";
     string password = "admin123";
@@ -125,7 +124,6 @@ redo_kode: // PENGGUNAAN ADA PADA LINE 89
 
 void kategoriWilayah()
 {
-
     int pilihan;    // KATEGORI PILIHAN
     int jml_barang; // BANYAK BARANG
     int jml_berat;  // PENAMPUNG BERAT TOTAL BARANG
@@ -420,4 +418,3 @@ void tampil_id()
 	}
 	fo.close();
 }
-
